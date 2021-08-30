@@ -1,0 +1,1 @@
+{"errors":[{"code":"","message":"Error during compilation: Could not load @salesforce/messageChannel/BearListUpdate__c (imported by c:\\Users\\Acer\\Desktop\\Trailhead\\bear-tracking-master\\force-app\\main\\default\\lwc\\bearList\\bearList.js): You can't preview a component using Lightning Message Service. Test the component directly in the org."}]}

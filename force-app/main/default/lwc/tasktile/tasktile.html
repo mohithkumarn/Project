@@ -1,0 +1,29 @@
+<template>
+    <!-- Start bear tile -->
+    <lightning-card title={bear.Name} class="bear-tile" icon-name="standard:task" >
+        <div slot="actions">
+            <lightning-button-icon
+                icon-name="utility:search"
+                icon-class="bear-tile-button"
+                variant="bare"
+                alternative-text="Open record"
+                onclick={handleOpenRecordClick}></lightning-button-icon>
+        </div>
+        <div class="slds-p-horizontal_small">
+            <div class="slds-media">
+                <div class="slds-media__figure">
+                  
+                </div>
+                <div class="slds-media__body" >
+                    <p class="slds-m-bottom_xx-small">Employee : {bear.Employee__r.Name}</p>
+                    <p class="slds-m-bottom_xx-small">Task : {bear.Tasks__r.Name}</p>
+                    <p class="slds-m-bottom_xx-small">Status: {bear.Status__c}</p>
+                    <p class="slds-m-bottom_xx-small">Due Date: {bear.Due_Date__c}</p>
+                    <p class="slds-m-bottom_xx-small">Duration: {bear.Duration__c}</p>                    
+                    
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+    <!-- End bear tile -->
+</template>
